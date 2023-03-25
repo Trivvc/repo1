@@ -1,0 +1,175 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    background: linear-gradient(124deg, #f3e8e2, #a99bad, #e7e7e7, #efb161, #ed8686);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+h1 {font-size:29px; line-height: 1.3;}
+
+.main {
+    display:flex;
+}
+
+.hinhanh {
+    width: 80%;
+    border-radius:30px;
+    box-shadow: 0 0 0 3px #000;
+}
+
+.flexbox {
+    margin: 0 auto;
+    max-width: 900px;
+    display:flex;
+    height: auto;
+}
+
+.mar {
+    margin:10px;
+}
+
+.information {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:20px;
+    border-radius: 30px;
+    width: 75%;
+    box-shadow: 0 0 0 3px #000;
+}
+
+.information h1 {color:rgb(255, 153, 153);}
+
+.information h3 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.infotext {
+    width: 80%;
+    margin: 10px auto;
+    background-color:rgb(104, 218, 59);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 3px rgb(211, 138, 42);
+}
+
+.information2 {
+    color:white;
+    width: 35%;   
+}
+
+.allbox {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 0 3px #000;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.information2 h1 {color:rgb(255, 153, 153)}
+
+.information2 p {font-size: 20px}
+
+.button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #000;
+}
+
+.facebook {
+    background-color: #3c91ff;
+}
+.insta {
+    background-color:#ff4eb8;
+}
+.github {
+    color:#000;
+    background-color: #fff;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .information {
+        width: 50%;
+    }
+    .information2 {
+        width: 50%;
+    }
+    .hinhanh {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .information h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flexbox {
+        display: block;
+    }
+    .information {
+        width: auto;
+    }
+    .information2 h1 {text-align: center;}
+.information2 p {text-align:center;}
+    .information2 {
+        width: auto;
+    }
+    .main {
+        width: auto;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    h1 {font-size: 24px}
+    .information2 p {font-size:18px}
+    .information h3 {font-size:18px}
+}
